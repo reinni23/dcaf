@@ -3,7 +3,7 @@ const Turnimg = document.getElementsByClassName("turnimg");
 for (let i = 0; i < Turnimg.length; i++) {
   setTimeout(function () {
     Turnimg[i].style.transform = "rotateY(0)";
-  }, 500 * i);
+  }, 300 * i);
 }
 
 $(document).ready(function () {

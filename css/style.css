@@ -186,6 +186,7 @@
   vertical-align: top;
   text-align: center;
   box-sizing: border-box;
+  background-color: white;
 }
 .pro_list2 > li:not(:nth-of-type(4n)) {
   margin-right: 24px;
@@ -317,6 +318,7 @@
 }
 .culture_img > li:hover a::before {
   background-color: rgb(28, 78, 134);
+  transition: 0.5s;
 }
 .culture_img > li > a::before {
   content: "";
@@ -349,7 +351,7 @@
 }
 .turnimg {
   transform: rotateY(90deg);
-  transition: 1.5s;
+  transition: 1.2s;
 }
 /* ------------------------------------------------------------------ */
 .link_wrap {
@@ -456,7 +458,7 @@
     font-size: 6.253125vmin;
     text-align: center;
   }
-  
+
   .pro_btn {
     margin: 10px auto;
     float: none;

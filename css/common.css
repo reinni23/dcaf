@@ -350,6 +350,10 @@ address li {
     background-color: #fff;
     z-index: 200;
   }
+  .form > input {
+    border: none;
+    margin-left: 10px;
+  }
   .form > a {
     display: block;
     float: right;
