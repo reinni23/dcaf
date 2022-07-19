@@ -202,6 +202,79 @@ body {
   width: 15px;
   top: 18px;
 }
+/* ---------------------------------sidebar menu--------------- */
+.art_nav_i {
+  cursor: pointer;
+}
+.nav_close {
+  position: absolute;
+  display: block;
+  width: 28px;
+  height: 28px;
+  top: 24px;
+  right: 54px;
+  background: url(../img/icn_cross.png) no-repeat center;
+  font-size: 0;
+  cursor: pointer;
+}
+.artpage {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 640px;
+  background-color: #fff;
+  text-align: center;
+  margin: 20px auto 0;
+}
+.artpage > p {
+  line-height: 40px;
+  padding: 80px 0 50px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.art_wrap {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.artpage_detail {
+  width: 16.66%;
+  padding: 0 2px;
+}
+.artpage_detail a {
+  color: #000;
+}
+.artpage_detail span {
+  display: block;
+  box-sizing: border-box;
+}
+.art_bg {
+  padding-top: 90px;
+  margin-top: 115px;
+  background-color: #f2f2f2;
+}
+.artimg {
+  width: 159px;
+  height: 159px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  transform: translate(10%, 16%);
+}
+.art_tel {
+  display: block;
+  padding: 11px 0 19px;
+  color: #235d13;
+  background-color: #f2f2f2;
+}
+.art_title {
+  padding: 16px 0;
+  border: 1px solid #ececec;
+  margin-top: 3px;
+  background-color: #fff;
+  color: #434343;
+  font-size: 15px;
+}
 /* --------------------------------------------------------------------- */
 footer {
   width: 100%;
